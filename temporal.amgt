@@ -1,0 +1,14 @@
+
+Version: 1.0
+AgroManagement:
+- 2020-01-01:
+    CropCalendar:
+        crop_name: 'soybean'
+        variety_name: 'Soybean_901'
+        crop_start_date: 2020-09-15
+        crop_start_type: sowing
+        crop_end_date: 2021-01-12
+        crop_end_type: harvest
+        max_duration: 150
+    TimedEvents: null
+    StateEvents: null

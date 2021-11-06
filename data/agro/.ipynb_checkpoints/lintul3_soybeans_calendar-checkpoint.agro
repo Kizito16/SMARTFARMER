@@ -1,0 +1,18 @@
+Version: 1.0
+AgroManagement:
+- 2020-08-31:
+    CropCalendar:
+        crop_name: soybean
+        variety_name: Soybean_907
+        crop_start_date: 2020-09-15
+        crop_start_type: sowing
+        crop_end_date: 2021-01-12
+        crop_end_type: earliest
+        max_duration: 120
+    TimedEvents: 
+    -   event_signal: apply_n
+        name:  Nitrogen application table
+        comment: All nitrogen amounts in g N m-2
+        events_table:
+        - 2020-09-15: {amount: 2.2, recovery: 0.7}
+    StateEvents: null
